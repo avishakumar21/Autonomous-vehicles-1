@@ -1,0 +1,22 @@
+1.Want each vehicle to be aware of whose next to it and be able to look thru
+a global list of vehicles, but only the vehicles in range. This would involve accessing
+the global list of vehicles, might want to change that to a hashset in order to do quicker 
+lookup
+
+2. Focus on safety lane change, get results from that and write up about optimization stuff
+in the extend works for the paper
+
+3. After hitting a certain threshold, want to then perform a lane change after checking to
+see if it's clear. Want to go to a lane in order to get back up into max speed
+
+Vehicles: 0 to 6 m.s^2 acceleration
+Pedestrian: 0 to 3.5 m.s^2 acceleration
+Implement a random vehicle speed that varies by about +- 10 in speed limit, whatever range tbd
+
+Tyler needs: collisions, acceleration/velocity/position of every vehicle at a time for each
+time step
+
+CCAT Robot:
+Want to deduce a material selection, want to select a material thats as light as possible
+and decide why. Then figure out how to actually make the thing depending on what material
+was picked. Add feet to the robot cover to attach nuts and bolts.
